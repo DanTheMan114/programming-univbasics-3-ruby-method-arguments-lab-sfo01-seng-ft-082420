@@ -8,9 +8,8 @@ def introduction (name = "Josh")
   puts "Hi, my name is #{name}."
   
 end 
-name = "Josh "
-language = "Python"
-def introduction_with_language (name, language)
+
+def introduction_with_language (name = "Edwin", language = "Python")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
   
 end
